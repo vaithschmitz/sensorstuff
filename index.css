@@ -3,3 +3,10 @@ body{
     height: 100vh;
     margin: none;
 }
+
+#proximity{
+    background-color: blue;
+    height: 20vh;
+    width: 20vw;
+    color: white;
+}
