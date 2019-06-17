@@ -3,8 +3,7 @@ function $(x){
 }
 
 
-let vib = navigator.vibrate || navigator.mozVibrate;
 
 function vibrate(){
-    vib(1000)
+    window.navigator.vibrate(200)
 }
