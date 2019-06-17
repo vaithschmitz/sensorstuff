@@ -3,10 +3,8 @@ function $(x){
 }
 
 
-window.addEventListener('userproximity', function(event) {
-    if (event.near) {
-      $('proximity').textContent = 'NEAR';
-    } else {
-      $('proximity').textContent = 'FAR';
-    }
-  });
+let vib = navigator.vibrate || navigator.mozVibrate;
+
+function vibrate(){
+    vib(1000)
+}
